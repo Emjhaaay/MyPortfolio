@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+   <header>
+        <h2 class="logo">Em<span>jhay</span></h2>
+
+        <!-- MOBILE SCREEN -->
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <i class='bx bx-menu-alt-right'></i>
+            <i class='bx bx-x'></i>
+        </label>
+        <!-- END MOBILE SCREEN -->
+
+        <ul class="list-menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+
+    <main>
+      <div class="left">
+        <h2 class="hello-text">Hello, I'm</h2>
+        <h1 class="name-text">Emjhay Dela Cruz👋</h1>
+        <h2 class="role-text">
+          <span>Programmer</span>
+          <span>Web Developer</span>
+          <span>Front-End Developer</span>
+        </h2>
+
+        <div class="list-button">
+          <button class="download-cv">Download CV</button>
+          <button class="contact-me">Contact Me</button>
+        </div>
+      </div>
+
+      <div class="image">
+        <img src="emjhay.jpg" class="">
+    </div>
+ 
+    </main>
+    <section id="about" class="about">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            About Me
+          </h1>
+          <div class="about-me">
+            <div data-aos="zoom-out-right" data-aos-delay="300" class="profile">
+              <div class="image-box">
+                <img src="emjhay.jpg" alt="profile" />
+              </div>
+            </div>
+
+            <div
+              data-aos="zoom-in-left"
+              data-aos-delay="300"
+              class="description"
+            >
+              <div class="name-role">
+                <h1>Emjhay Dela Cruz</h1>
+
+                <!-- Typed.js -->
+               <div class="role">
+                <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+                <h3>I'm a <span class="type"></span></h3>
+                <script>
+                    var typed = new Typed(".type", {
+                        strings: ["Programmer.", "Web Developer.", "Front-End Developer."],
+                        typeSpeed: 80,
+                        backSpeed: 60,
+                        loop: true,
+                    });
+                </script>
+               </div>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+                dolore aliquid excepturi totam quia, facilis, dicta, cupiditate
+                deleniti explicabo possimus et nam magnam commodi necessitatibus
+                tempora amet earum libero suscipit aspernatur facere delectus
+                nisi soluta. Vitae a dolorem assumenda? Soluta voluptatem
+                consequuntur cupiditate id fugiat minima vero rerum ipsam
+                architecto ipsa corporis aspernatur, iure dolor optio voluptates
+                omnis incidunt! Doloribus nostrum ratione accusantium, vero
+                magnam laudantium odio aut. <br />
+                <br />
+                Modi nostrum optio nulla praesentium inventore, nobis ducimus
+                delectus sequi sed illum commodi adipisci eius tenetur animi? Ea
+                esse a magni tempore quidem quos consequatur minus voluptatum
+                laudantium eum sunt vel nulla voluptatem, possimus dolores!
+                Nesciunt numquam veniam quaerat. Nobis, provident debitis vitae
+                pariatur earum tempore recusandae deleniti expedita magnam ullam
+                quasi optio minima nemo mollitia sit perferendis commodi quos
+                laboriosam.<br />
+                <br />
+                Cupiditate repellat harum vel quae illum magnam non corrupti
+                quisquam recusandae odio labore sunt officiis, unde incidunt
+                alias eius assumenda ducimus impedit. Quo accusantium tenetur
+                nam omnis ullam quasi aspernatur alias ut debitis possimus dicta
+                ad delectus doloremque aperiam, vitae, a dolore aliquam, modi
+                ex. Accusamus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skill" class="skill">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Skill
+          </h1>
+
+          <div class="skills" data-aos-delay="500">
+            <div data-aos="zoom-in-down" class="skill-box">
+              <i
+                class="fab fa-html5"
+                style="color: #e34f26; font-size: 40px"
+              ></i>
+              <span class="tooltip">HTML5</span>
+            </div>
+
+            <div data-aos="zoom-in-down" class="skill-box">
+              <i
+                class="fab fa-css3-alt"
+                style="color: #1572b6; font-size: 40px"
+              ></i>
+              <span class="tooltip">CSS3</span>
+            </div>
+
+            <div data-aos="zoom-in-down" class="skill-box">
+              <i
+                class="fab fa-js-square"
+                style="color: #f7df1e; font-size: 40px"
+              ></i>
+              <span class="tooltip">JavaScript</span>
+            </div>
+
+            <div data-aos="zoom-in-down" class="skill-box">
+              <i
+                class="fab fa-js-square"
+                style="color: #3178c6; font-size: 40px"
+              ></i>
+              <span class="tooltip">TypeScript</span>
+            </div>
+
+            <div data-aos="zoom-in-down" class="skill-box">
+              <i
+                class="fab fa-react"
+                style="color: #61dafb; font-size: 40px"
+              ></i>
+              <span class="tooltip">React</span>
+            </div>
+
+            <div data-aos="zoom-in-down" class="skill-box">
+              <i
+                class="fab fa-python"
+                style="color: #3776ab; font-size: 40px"
+              ></i>
+              <span class="tooltip">Python</span>
+            </div>
+
+            <div data-aos="zoom-in-down" class="skill-box">
+              <i
+                class="fab fa-node"
+                style="color: #87c524; font-size: 40px"
+              ></i>
+              <span class="tooltip">Node.js</span>
+            </div>
+
+            <div data-aos="zoom-in-down" class="skill-box">
+              <i
+                class="fa-brands fa-java"
+                style="color: #d47406; font-size: 40px"
+              ></i>
+              <span class="tooltip">Java</span>
+            </div>
+
+            <div data-aos="zoom-in-down" class="skill-box">
+              <i
+                class="fa-solid fa-microchip"
+                style="color: #6ebeff; font-size: 40px"
+              ></i>
+              <span class="tooltip">Computer <br />Enthusiasm</span>
+            </div>
+
+            <div data-aos="zoom-in-down" class="skill-box">
+              <i
+                class="fas fa-database"
+                style="color: #4479a1; font-size: 40px"
+              ></i>
+              <span class="tooltip">MySQL</span>
+            </div>
+
+            <div data-aos="zoom-in-down" class="skill-box">
+              <i
+                class="fas fa-database"
+                style="color: #33915d; font-size: 40px"
+              ></i>
+              <span class="tooltip">MongoDB</span>
+            </div>
+
+            <div data-aos="zoom-in-down" class="skill-box">
+              <i
+                class="fab fa-github"
+                style="color: #f8f2f2; font-size: 40px"
+              ></i>
+              <span class="tooltip">GitHub</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="project">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Project
+          </h1>
+
+          <div class="projects">
+            <div data-aos="zoom-in-down" data-aos-delay="300" class="card">
+              <img src="comtech.png" alt="project" />
+
+              <div class="description">
+                <h1>Comtech Express</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                  voluptas eaque enim soluta blanditiis velit quisquam delectus
+                  reiciendis debitis laboriosam.
+                </p>
+                <div class="action">
+                  <button>Github</button>
+                  <button>Demo</button>
+                </div>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="400" class="card">
+              <img src="tic.png" alt="project" />
+
+              <div class="description">
+                <h1>Tic-Tac-Toe</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                  voluptas eaque enim soluta blanditiis velit quisquam delectus
+                  reiciendis debitis laboriosam.
+                </p>
+                <div class="action">
+                  <button>Github</button>
+                  <button>Demo</button>
+                </div>
+              </div>
+            </div>
+            <div data-aos="zoom-in-down" data-aos-delay="500" class="card">
+              <img src="hr4.png" alt="project" />
+
+              <div class="description">
+                <h1>Human Resouces 4</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                  voluptas eaque enim soluta blanditiis velit quisquam delectus
+                  reiciendis debitis laboriosam.
+                </p>
+                <div class="action">
+                  <button>Github</button>
+                  <button>Demo</button>
+                </div>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="content">
+          <h1 data-aos="zoom-in-down" data-aos-delay="300" class="title">
+            Contact
+          </h1>
+
+          <form
+            data-aos="zoom-in-down"
+            data-aos-delay="300"
+            class="contact-form"
+          >
+            <div class="input">
+              <input type="text" placeholder="Name..." />
+              <input type="email" placeholder="Email..." />
+              <input type="number" placeholder="Phone..." />
+              <input type="text" placeholder="Subject..." />
+            </div>
+            <textarea name="message" placeholder="Message..."></textarea>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div data-aos="fade-up" data-aos-duration="1000" class="container">
+        <div class="profile">
+          <div class="logo">
+            <a href="">Em<span style="color: #00cbd4;">jhay</span></a>
+          </div>
+
+          <!-- Short About -->
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            quas libero expedita, similique est sed.
+          </p>
+
+          <!-- Social Media -->
+          <div class="social-media-container">
+            <div class="social-media">
+              <a href="https://www.instagram.com/definitelynotemdyew_/" target="_blank" rel="noopener noreferrer">
+                <box-icon color="#fff" type="logo" name="instagram"></box-icon>
+              </a>
+            </div>
+            <div class="social-media">
+              <a href="https://www.facebook.com/Emdyeeew/" target="_blank" rel="noopener noreferrer">
+                <box-icon color="#fff" name="facebook-circle" type="logo"></box-icon>
+              </a>
+            </div>
+            <div class="social-media">
+              <a href="https://www.tiktok.com/@emdyew?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer">
+                <box-icon color="#fff" type="logo" name="tiktok"></box-icon>
+              </a>
+            </div>
+            <div class="social-media">
+              <a href="https://github.com/Emjhaaay" target="_blank" rel="noopener noreferrer">
+                <box-icon color="#fff" type="logo" name="github"></box-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="link-container">
+          <div class="information">
+            <h1>Skill</h1>
+            <ul>
+              <li>
+                <a href="#">HTML</a>
+              </li>
+              <li>
+                <a href="#">CSS</a>
+              </li>
+              <li>
+                <a href="#">React.js</a>
+              </li>
+              <li>
+                <a href="#">Python</a>
+              </li>
+              <li>
+                <a href="#">Node.js</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="resource">
+            <h1>Technology</h1>
+            <ul>
+              <li>
+                <a href="#">VS Code</a>
+              </li>
+              <li>
+                <a href="#">Vercel</a>
+              </li>
+              <li>
+                <a href="#">Figma</a>
+              </li>
+              <li>
+                <a href="#">Github</a>
+              </li>
+              <li>
+                <a href="#">Og Whun</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="navigation">
+            <h1>Navigation</h1>
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+              <li>
+                <a href="#">Skill</a>
+              </li>
+              <li>
+                <a href="#">Project</a>
+              </li>
+              <li>
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <!-- Box Icon -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
